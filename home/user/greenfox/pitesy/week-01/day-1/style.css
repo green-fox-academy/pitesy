@@ -1,0 +1,74 @@
+body {
+	padding: 0 auto;
+	background-image: url(topography.png);
+	background-repeat: repeat;
+	margin: 0;
+	font-family: consolas, courier;
+}
+
+article {
+
+	padding: 0 10%;
+}
+
+h2, #separator {
+	text-align: center;
+	margin: 40px 0;
+}
+
+h2 {
+	font-family: 'Noto Serif', serif;
+	font-size: 35px;
+}
+
+#separator {
+	font-size: 15px;
+}
+
+h1 {
+	font-family: 'Noto Serif', serif;
+	font-size: 40px;
+	margin: 90px 0 25px;
+}
+
+#job {
+	color: #ff3399;
+	font-size: 25px;
+	margin: 10px 0;
+}
+
+p {
+
+	line-height: 160%;
+	font-size: 18px;
+}
+
+h3 {
+	font-family: 'Noto Serif', serif;
+	font-size: 28px;
+}
+
+.questions {
+	font-size: 16px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    width: 100%;
+    display: inline-block;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #ff0099;
+    padding: 14px 16px;
+    font-size: 14px;
+    font-family: 'Play', sans-serif;
+}
+
+#pageLogo {
+	position: absolute;
+	top: 6px; left: 140px;
+}
