@@ -15,7 +15,7 @@ public class PartyIndicator {
       System.out.println("Sausage party");
     } else if ((inputBoys + inputGirls) < 20) {
       System.out.println("Average party...");
-    } else if (inputBoys != inputGirls && (inputBoys + inputGirls) > 20) {
+    }  else if (inputBoys != inputGirls && (inputBoys + inputGirls) > 20) {
       System.out.println("Quite cool party!");
     } else if (inputBoys == inputGirls && (inputBoys + inputGirls) > 20) {
       System.out.println("The party is excellent!");
