@@ -8,14 +8,15 @@ public class DrawPyramid {
 
     int userInput = scanner.nextInt();
 
-    for (int outer = 1; outer <= userInput; outer++) {
-      for (int inner1 = userInput - outer; inner1 >= 1; inner1--) {
-      System.out.print("x");
+    for (int rowCounter = 1; rowCounter <= userInput; rowCounter++) {
+      for (int drawDot = userInput - rowCounter; drawDot > 0; drawDot--) {
+        System.out.print(" ");
       }
-      for (int inner2 = 1; inner2 <= 7; inner2 +=2) {
+
+      for (int drawStar = 1; (drawStar < rowCounter * 2) ; drawStar ++) {
         System.out.print("*");
       }
-      System.out.println(" ");
+        System.out.println(" ");
     }
   }
 }
