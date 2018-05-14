@@ -10,6 +10,5 @@ public class CompareLength {
     } else {
       System.out.println("p2 has fewer elements than p1");
     }
-
   }
 }

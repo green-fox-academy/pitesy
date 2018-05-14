@@ -2,9 +2,7 @@ public class PrintParams {
   public static void main(String[] args) {
 
     String[] array = {"first", "second", "third", "fourth"};
-
     printParams(array);
-
   }
 
   public static void printParams(String[] text) {
